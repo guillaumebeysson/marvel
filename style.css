@@ -103,4 +103,13 @@ footer {
 	#movies .blockMovie .posterMovie img {
 		width: 40vw;
 	}
+	#movies .blockMovie:hover .tittleMovie {
+		color: black;
+	}
+	#movies .blockMovie:hover .yearMovie {
+		color: grey;
+	}
+	#movies .blockMovie:hover .posterMovie img {
+		transform: translateY(0);
+	}
 }
